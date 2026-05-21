@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="100%" height="100%">
+  <!-- Icon Emblem: stylized atomic shield / falcon wing -->
+  <g transform="translate(45, 18)">
+    <!-- Blue core / orbit -->
+    <ellipse cx="30" cy="32" rx="25" ry="8" fill="none" stroke="#00A3E0" stroke-width="2" transform="rotate(-30, 30, 32)" />
+    <!-- Green bird wing / orbit -->
+    <path d="M15,20 C22,12 35,15 42,25 C40,28 35,26 30,26 C22,26 18,22 15,20 Z" fill="#005A36" />
+    <!-- Accent light green sweep -->
+    <path d="M22,42 C28,48 42,45 48,32 C44,32 38,35 32,35 C26,35 24,40 22,42 Z" fill="#78BE20" />
+    <!-- Center nucleus -->
+    <circle cx="30" cy="32" r="5" fill="#005A36" />
+  </g>
+  <!-- Typography -->
+  <text x="115" y="38" font-family="'Inter', 'Montserrat', sans-serif" font-weight="900" font-size="22" fill="#005A36" letter-spacing="3">FANR</text>
+  <text x="115" y="54" font-family="'Inter', 'Montserrat', sans-serif" font-weight="700" font-size="8" fill="#78BE20" letter-spacing="1">FEDERAL AUTHORITY FOR NUCLEAR REGULATION</text>
+  <text x="115" y="66" font-family="'Inter', 'Montserrat', sans-serif" font-weight="800" font-size="10" fill="#005A36" letter-spacing="2.5">الهيئة الاتحادية للرقابة النووية</text>
+</svg>

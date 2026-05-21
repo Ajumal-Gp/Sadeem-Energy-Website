@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 217 91% 21%;
+    /* Professional Navy #003366 */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 42 100% 55%;
+    /* Sadeem Gold #FFB81C */
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 199 89% 48%;
+    /* Electric Azure #1E90FF */
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 217 91% 21%;
+
+    --radius: 1.5rem;
+
+    /* Custom tokens */
+    --hero-gradient: linear-gradient(135deg, #001F3F 0%, #003366 50%, #1E90FF 100%);
+    --mesh-gradient: radial-gradient(at 0% 0%, hsla(217, 91%, 21%, 1) 0, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(199, 89%, 48%, 1) 0, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(42, 100%, 55%, 1) 0, transparent 50%);
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.3);
+  }
+
+  .dark {
+    --background: 222 47% 4%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 6%;
+    --card-foreground: 210 40% 98%;
+    --primary: 217 91% 30%;
+    --secondary: 42 100% 55%;
+    --accent: 199 89% 48%;
+    --glass-bg: rgba(15, 23, 42, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary selection:text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display font-black tracking-tight;
+  }
+}
+
+@layer utilities {
+  .hero-gradient {
+    background: var(--hero-gradient);
+  }
+
+  .mesh-gradient {
+    background-image: var(--mesh-gradient);
+  }
+
+  .glass {
+    @apply backdrop-blur-xl border;
+    background: var(--glass-bg);
+    border-color: var(--glass-border);
+  }
+
+  .glass-dark {
+    @apply backdrop-blur-xl border border-white/10;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary to-amber-300;
+  }
+
+  .text-gradient-azure {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-blue-400;
+  }
+
+  .card-hover {
+    @apply transition-all duration-700 hover:-translate-y-3 hover:border-primary/20;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 10px 40px -15px rgba(0, 0, 0, 0.08);
+  }
+
+  .card-hover:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  }
+
+  .animate-slow-zoom {
+    animation: slow-zoom 20s infinite alternate;
+  }
+
+  @keyframes slow-zoom {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+  .shimmer {
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:h-12 {
+    height: 5rem !important;
+  }
+}

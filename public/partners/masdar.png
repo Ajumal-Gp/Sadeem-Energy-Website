@@ -1,0 +1,981 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Masdar | 404 Page</title>
+    <meta property="og:title" content="Masdar | 404 Page" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="og:description" content="" />
+        <meta name="twitter:image" content="/-/media/corporate-revamp/banner/inner-page-banner/desktop/masdar-default-bg-650.png" />
+        <meta name="og:image" content="/-/media/corporate-revamp/banner/inner-page-banner/desktop/masdar-default-bg-650.png" />
+    <meta property="og:url" content="https://masdar.ae/en/404" />
+    <link rel="canonical" href="https://masdar.ae/en/404" />
+    <meta property="og:type" content="website" />
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Masdar | 404 Page",
+  "url": "https://masdar.ae/en/404",
+  "description": "",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Masdar",
+    "url": "https://masdar.ae/-/media/corporate-revamp/logo/masdar-logo-blue.svg",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://masdar.ae/-/media/corporate-revamp/logo/masdar-logo-blue.svg"
+    }
+  }
+}
+    </script>
+
+                <link rel="alternate" hreflang="en" href="https://masdar.ae/en/404" />
+            <link rel="alternate" hreflang="ar" href="https://masdar.ae/ar/404" />
+        <link rel="alternate" hreflang="x-default" href="https://masdar.ae/en/404" />
+
+
+    
+
+    <link rel="icon" type="image/x-icon" href="/-/media/corporate-revamp/icons/favicon/masdar-fav-64x64.ico">
+
+
+
+    <link rel="preload" href="/Assets/Corporate-Revamp/css/bootstrap.min.css" as="style" />
+    <link rel="preload" href="/Assets/Corporate-Revamp/css/swiper.css" as="style" />
+        <link rel="preload" href="/Assets/Corporate-Revamp/css/style.css" as="style" />
+            <style>
+            @font-face {
+                font-family: 'dinlight';
+                src: url("/Assets/Corporate-Revamp/fonts/din_light_regular-webfont.woff2") format("woff2"), url("/Assets/Corporate-Revamp/fonts/din_light_regular-webfont.woff") format("woff");
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: 'DIN';
+                src: url("/Assets/Corporate-Revamp/fonts/DIN.eot");
+                /* IE9 Compat Modes */
+                src: url("/Assets/Corporate-Revamp/fonts/DIN.eot?#iefix") format("embedded-opentype"), url("/Assets/Corporate-Revamp/fonts/DIN.woff") format("woff"), url("/Assets/Corporate-Revamp/fonts/DIN.ttf") format("truetype"), url("/Assets/Corporate-Revamp/fonts/DIN.svg#0756f27ca9ade505a577fcdbfde2969b") format("svg");
+                /* Legacy iOS */
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: 'din_mediumregular';
+                src: url("/Assets/Corporate-Revamp/fonts/din_medium-webfont.eot");
+                src: url("/Assets/Corporate-Revamp/fonts/din_medium-webfont.eot?#iefix") format("embedded-opentype"), url("/Assets/Corporate-Revamp/fonts/din_medium-webfont.woff") format("woff"), url("/Assets/Corporate-Revamp/fonts/din_medium-webfont.ttf") format("truetype"), url("/Assets/Corporate-Revamp/fonts/din_medium-webfont.svg#din_mediumregular") format("svg");
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: 'din_bold';
+                src: url("/Assets/Corporate-Revamp/fonts/din_bold-webfont.eot");
+                src: url("/Assets/Corporate-Revamp/fonts/din_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/Assets/Corporate-Revamp/fonts/din_bold-webfont.woff") format("woff"), url("/Assets/Corporate-Revamp/fonts/din_bold-webfont.ttf") format("truetype"), url("/Assets/Corporate-Revamp/fonts/din_bold-webfont.svg#dinbold") format("svg");
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+            }
+        </style>
+            <!-- css files -->
+        <link href="/Assets/Corporate-Revamp/css/bootstrap.min.css" rel="stylesheet" media="screen,handheld" />
+        <!-- select2 4.0.2 css-->
+        <link href="/Assets/Corporate-Revamp/css/select2.min.css" rel="stylesheet" media="screen,handheld" />
+        <!--swiper 6.3.5 css-->
+        <link rel="stylesheet" href="/Assets/Corporate-Revamp/css/swiper.css" type="text/css" media="screen,handheld" />
+        <!--Datepicker-->
+        <link rel="stylesheet" href="/Assets/Corporate-Revamp/css/jquery-ui.css" media="screen,handheld" />
+            <link rel="stylesheet" href="/Assets/Corporate-Revamp/css/style.css" type="text/css" media="screen,handheld" />
+    
+    <!-- OneTrust Cookies Consent Notice start for masdar.ae -->
+    <script type="text/javascript" src="https://cdn.cookielaw.org/consent/db8198cf-601d-478c-9534-3423ba3d6831/OtAutoBlock.js"></script>
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="db8198cf-601d-478c-9534-3423ba3d6831"></script>
+    <script type="text/javascript">
+        function OptanonWrapper() { }
+    </script>
+    <!-- OneTrust Cookies Consent Notice end for masdar.ae -->
+        <meta name="google-site-verification" content="3M7LdUApWuuVif62X3M2f1olloEpIvnwy1ZIt8APMeE" />
+        <script type="text/javascript">
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }
+                    , i[r].l = 1 * new Date(); a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            /**/
+            ga('create', 'UA-32981100-1', 'auto');
+            /**/
+            ga('create', 'UA-139891805-1', 'auto', 'new');
+            ga('send', 'pageview');
+            ga('new.send', 'pageview');
+        </script>
+
+</head>
+
+<body>
+    <script src="/Assets/Corporate-Revamp/js/jquery-3.6.4.js"></script>
+    
+
+<div class="container-custom">
+    <!-- header starts -->
+    
+
+<header class="non-sticky-header">
+    <div class="container-inner">
+        <div class="mobile-header d-flex align-items-center justify-content-end">
+            <!-- low carbon mode starts -->
+            
+
+<div id="xp1" class="rs_addtools rs_splitbutton rs_preserve rs_skip rs_exp d-none"></div>
+<a href="//app-eu.readspeaker.com/cgi-bin/rsent?customerid=13987&amp;lang=en_us&amp;voice=Ashley&amp;readid=main-wrap" class="d-none" id="readOut"
+   onclick="readpage(this.href, 'xp1'); return false;" data-target="xp1">Listen text or icon</a>
+
+<div class="energy-efficient">
+    <span class="label-text">Go Low Carbon</span>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
+</div>
+
+            <!-- low carbon mode ends -->
+            <div class="mobile-logo">
+                
+
+<a class="navbar-brand" href="/en/">
+<img src="/-/media/corporate-revamp/logo/masdar-logo-white.svg?iar=0&amp;hash=0121760320B8BDCD218684677631E055" class="white-logo" alt="site-logo" />
+<img src="/-/media/corporate-revamp/logo/masdar-logo-blue.svg?iar=0&amp;hash=4C8696203A54A9C3E6058DD0D933C4CE" class="blue-logo" alt="site-logo" />
+</a>
+
+            </div>
+            <div class="mobile-header-box">
+                <div class="mobile-header-box-top d-flex align-items-center">
+                    <div class="mobile-header-right">
+                        
+    <div class="nav-item lang-block">
+                <span class="selected-language d-flex align-items-center">
+                    <div class="image">
+                        <p>en</p>
+                    </div>
+                    <i class="icon-svg icon-filled-white-dropdown"></i>
+                </span>
+        <ul class="lang-select-dropdown">
+
+                    <li class="mb-2">
+                            <a href="https://masdar.ae/ar/404" title="language" class="link-style1 link-white switch-lang text-decoration-none">
+                                <p>ar</p>
+                            </a>
+                    </li>
+        </ul>
+    </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="mobile-header-box-bottom">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            
+            
+            <div class="header-right">
+                
+    <div class="nav-item lang-block">
+                <span class="selected-language d-flex align-items-center">
+                    <div class="image">
+                        <p>en</p>
+                    </div>
+                    <i class="icon-svg icon-filled-white-dropdown"></i>
+                </span>
+        <ul class="lang-select-dropdown">
+
+                    <li class="mb-2">
+                            <a href="https://masdar.ae/ar/404" title="language" class="link-style1 link-white switch-lang text-decoration-none">
+                                <p>ar</p>
+                            </a>
+                    </li>
+        </ul>
+    </div>
+
+
+
+
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid p-0">
+                <div class="header-left">
+                    <div class="d-flex align-items-center">
+                        
+
+<a class="navbar-brand" href="/en/">
+<img src="/-/media/corporate-revamp/logo/masdar-logo-white.svg?iar=0&amp;hash=0121760320B8BDCD218684677631E055" class="white-logo" alt="site-logo" />
+<img src="/-/media/corporate-revamp/logo/masdar-logo-blue.svg?iar=0&amp;hash=4C8696203A54A9C3E6058DD0D933C4CE" class="blue-logo" alt="site-logo" />
+</a>
+
+                    </div>
+                    
+
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+                <li class="nav-item has-sub-menu">
+                        <div class="nav-link">
+                            Who We Are
+                        </div>
+
+                    <div class="dropdown-menu">
+                        <div class="d-flex">
+                            <div class="main-menu-left">
+                                <div class="container-inner d-flex">
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a title="our-company" href="/en/our-company">
+                                                Our Company
+                                                </a>
+                                            </h2>
+                                                <ul>
+                                                            <li>
+                                                                <a href="/en/our-company/about-masdar">
+                                                                About us
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/our-company/vision-mission-and-values">
+                                                                Vision, Mission and Values
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/our-company/our-shareholders">
+                                                                Shareholders
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/our-company/awards-and-recognition">
+                                                                Awards
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/global-office-locations">
+                                                                Global Office Locations
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/legal-terms/code-of-ethics-and-business-conduct">
+                                                                Code of Ethics and Business Conduct
+                                                                </a>
+                                                            </li>
+                                                </ul>
+                                        </div>
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a href="/en/our-management">
+                                                Our management
+                                                </a>
+                                            </h2>
+                                                <ul>
+                                                            <li>
+                                                                <a href="/en/our-management/board-of-directors-renewables">
+                                                                Board of Directors - Renewables
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/our-management/board-of-directors-green-hydrogen">
+                                                                Board of Directors - Green Hydrogen
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/our-management/executive-team">
+                                                                Executive Team
+                                                                </a>
+                                                            </li>
+                                                </ul>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="main-menu-right">
+                                <div class="image">
+                                            <img src="/-/media/corporate-revamp/images/low-carbon-mode/lowcarbonmode.svg" alt="Banner Image"
+                                                 class="img-fluid banner-desktop lazyload low-carbon-mode-on"
+                                                 carbon-src="/-/media/corporate-revamp/images/low-carbon-mode/lowcarbonmode.svg"
+                                                 original-src="/-/media/corporate-revamp/images/navigation/who-we-are-banner.jpg">
+
+
+                                </div>
+                                <div class="content">
+                                    <h2>About</h2>
+                                                            <p>A clean energy pioneer positioning the UAE at the forefront of the worldwide energy transition.</p>
+                                                            <div class="link-block text-white"><a href="/en/our-company/about-masdar" title="about"> learn more
+                                                                    <i class="icon-svg icon-right-arrow-white"></i></a>
+                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-menu-overlay"></div>
+                </li>
+                <li class="nav-item has-sub-menu">
+                        <div class="nav-link">
+                            What We Do
+                        </div>
+
+                    <div class="dropdown-menu">
+                        <div class="d-flex">
+                            <div class="main-menu-left">
+                                <div class="container-inner d-flex">
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a href="/en/renewables">
+                                                Renewables
+                                                </a>
+                                            </h2>
+                                                <ul>
+                                                            <li>
+                                                                <a href="/en/renewables/our-projects">
+                                                                Our Projects
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/renewables/technologies">
+                                                                Technologies
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/renewables/utility-scale-projects">
+                                                                Utility-scale Projects
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/renewables/special-projects">
+                                                                Special Projects
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/renewables/commercial-and-industrial">
+                                                                Commercial and Industrial Projects
+                                                                </a>
+                                                            </li>
+                                                </ul>
+                                        </div>
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a href="/en/renewables/green-hydrogen">
+                                                Green Hydrogen
+                                                </a>
+                                            </h2>
+                                        </div>
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a href="/en/strategic-global-initiatives">
+                                                Strategic Global initiatives
+                                                </a>
+                                            </h2>
+                                                <ul>
+                                                            <li>
+                                                                <a href="/en/strategic-global-initiatives/adsw">
+                                                                Abu Dhabi Sustainability Week
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/strategic-global-initiatives/zsp">
+                                                                Zayed Sustainability Prize
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/strategic-global-initiatives/y4s">
+                                                                Youth 4 Sustainability
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/strategic-global-initiatives/wiser">
+                                                                WiSER
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/strategic-global-initiatives/special-initiative">
+                                                                Special Initiatives
+                                                                </a>
+                                                            </li>
+                                                </ul>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="main-menu-right">
+                                <div class="image">
+                                            <img src="/-/media/corporate-revamp/images/low-carbon-mode/lowcarbonmode.svg" alt="Banner Image"
+                                                 class="img-fluid banner-desktop lazyload low-carbon-mode-on"
+                                                 carbon-src="/-/media/corporate-revamp/images/low-carbon-mode/lowcarbonmode.svg"
+                                                 original-src="/-/media/corporate-revamp/images/navigation/projects-menu.jpg">
+
+
+                                </div>
+                                <div class="content">
+                                    <h2>Projects </h2>
+                                                            <p>Identifying value-enhancing initiatives for clean energy projects.</p>
+                                                            <div class="link-block text-white"><a href="/en/renewables/our-projects" title="about"> learn more
+                                                                    <i class="icon-svg icon-right-arrow-white"></i></a>
+                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-menu-overlay"></div>
+                </li>
+                <li class="nav-item has-sub-menu">
+                        <div class="nav-link">
+                            Our Impact
+                        </div>
+
+                    <div class="dropdown-menu">
+                        <div class="d-flex">
+                            <div class="main-menu-left">
+                                <div class="container-inner d-flex">
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a href="/en/global-footprint">
+                                                Global Footprint
+                                                </a>
+                                            </h2>
+                                        </div>
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a href="/en/thought-leader-reports">
+                                                Thought Leader Reports
+                                                </a>
+                                            </h2>
+                                                <ul>
+                                                </ul>
+                                        </div>
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a href="/en/news/power-to-change">
+                                                Power to Change Documentary
+                                                </a>
+                                            </h2>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="main-menu-right">
+                                <div class="image">
+                                            <img src="/-/media/corporate-revamp/images/low-carbon-mode/lowcarbonmode.svg" alt="Banner Image"
+                                                 class="img-fluid banner-desktop lazyload low-carbon-mode-on"
+                                                 carbon-src="/-/media/corporate-revamp/images/low-carbon-mode/lowcarbonmode.svg"
+                                                 original-src="/-/media/corporate-revamp/images/navigation/about-menu.jpg">
+
+
+                                </div>
+                                <div class="content">
+                                    <h2>Masdar Global Impact</h2>
+                                                            <p>Advancing sustainability is at the core of Masdar.</p>
+                                                            <div class="link-block text-white"><a href="/en/global-footprint" title="about"> learn more
+                                                                    <i class="icon-svg icon-right-arrow-white"></i></a>
+                                                            </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-menu-overlay"></div>
+                </li>
+                <li class="nav-item has-sub-menu">
+                        <div class="nav-link">
+                            News
+                        </div>
+
+                    <div class="dropdown-menu">
+                        <div class="d-flex">
+                            <div class="main-menu-left">
+                                <div class="container-inner d-flex">
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a href="/en/news">
+                                                News
+                                                </a>
+                                            </h2>
+                                                <ul>
+                                                            <li>
+                                                                <a href="/en/news/newsroom">
+                                                                Newsroom
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/News/Newsroom?typeID={5B8406B3-A4DC-4745-A70B-184874FACD26}">
+                                                                Opinion Articles
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/en/news/newsletter">
+                                                                Newsletter
+                                                                </a>
+                                                            </li>
+                                                </ul>
+                                        </div>
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a href="/en/news/media-inquiries">
+                                                Media Inquiries
+                                                </a>
+                                            </h2>
+                                        </div>
+                                        <div class="dropdown-menu-left">
+                                            <h2>
+                                                <a href="/en/news/future-energy-talks">
+                                                Future Energy Talks Vodcast
+                                                </a>
+                                            </h2>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="main-menu-right">
+                                <div class="image">
+                                            <img src="/-/media/corporate-revamp/images/low-carbon-mode/lowcarbonmode.svg" alt="Banner Image"
+                                                 class="img-fluid banner-desktop lazyload low-carbon-mode-on"
+                                                 carbon-src="/-/media/corporate-revamp/images/low-carbon-mode/lowcarbonmode.svg"
+                                                 original-src="/-/media/corporate-revamp/images/navigation/media-menu.jpg">
+
+
+                                </div>
+                                <div class="content">
+                                    <h2>Media Inquiries
+</h2>
+                                                            <p>Deploying renewable energy projects and realising low-carbon urban development
+</p>
+                                                            <div class="link-block text-white"><a href="/en/news/media-inquiries" title="about"> learn more
+                                                                    <i class="icon-svg icon-right-arrow-white"></i></a>
+                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-menu-overlay"></div>
+                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/en/investors">
+                        Investors
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/en/careers">
+                        Careers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/en/contact-us">
+                        Contact
+                        </a>
+                    </li>
+        <li class="nav-item search-block">
+            <a class="nav-link" title="search" aria-current="page" href="#">
+                <i class="icon-svg icon-search-white"></i>
+            </a>
+            <div class="search-form" id="search-form">
+                <form action="/search" method="get">
+                    <input class="search-field" name="search" autocomplete=off type="search" minlength=3 maxlength=30
+                           placeholder="Search" aria-label="Search">
+                    <button class="btn btn-search" type="submit">
+                        <img src="/Assets/Corporate-Revamp/images/background/search-blue.svg" alt="Search">
+                    </button>
+                </form>
+            </div>
+        </li>
+        
+<li class="nav-item  mobile-links">
+    
+    <div class="search-block">
+        <form class="d-flex" action="/search" method="get">
+            <input name="search" class="form-control search-box" id="search-box" type="search"
+                   aria-label="Search" placeholder="Search">
+            <button class="btn" type="submit">
+                <span class="search-icon">
+                    <img src="/Assets/Corporate-Revamp/images/search-white.svg" alt="Search" width="100%"
+                         height="100%">
+                </span>
+            </button>
+        </form>
+    </div>
+    <!-- low carbon mode starts -->
+    
+
+<div id="xp1" class="rs_addtools rs_splitbutton rs_preserve rs_skip rs_exp d-none"></div>
+<a href="//app-eu.readspeaker.com/cgi-bin/rsent?customerid=13987&amp;lang=en_us&amp;voice=Ashley&amp;readid=main-wrap" class="d-none" id="readOut"
+   onclick="readpage(this.href, 'xp1'); return false;" data-target="xp1">Listen text or icon</a>
+
+<div class="energy-efficient">
+    <span class="label-text">Go Low Carbon</span>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
+</div>
+
+    <!-- low carbon mode ends -->
+</li>
+
+    </ul>
+</div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+    <!-- header ends -->
+    <div id="main-wrap">
+        
+
+
+<section class="page-not-found">
+<div class="container-custom-md">
+<div class="page-not-found-container text-center">
+<div class="image">
+<img alt="" src="/-/media/corporate-revamp/images/inner-pages/404-page/404-page-not-found.png" class="img-fluid" />
+</div>
+<div class="text">
+<h1 class="h2">Page not Found</h1>
+<p>The page you&rsquo;re looking for does not seem to exist</p>
+<div class="text-center btn-block">
+<a href="/en/" class="btn btn-blue">Go to home page <em class="icon-svg icon-right-arrow-white"></em></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<!-- Footer section starts -->
+<section class="newsletter rs_skip_always">
+    <div class="container-inner">
+        <div class="d-flex justify-content-between align-items-center">
+            
+
+<div class="newsletter-logo">
+    <a href="/en/">
+    <img src="/-/media/corporate-revamp/logo/masdar-logo-white.svg?h=47&amp;iar=0&amp;w=213&amp;hash=79B8FC56A1AE7A036886E5939BA99BA4" alt="site-logo" width="213" height="47" />
+    </a>
+</div>
+
+            <div class="newsletter-form">
+                
+                <form class="d-flex" id="NewsLetterSubscriptionFooterForm">
+                    <div class="d-flex newsletter-form-input" id="InputFooterSectionNewsLetter">
+                        <input id="NewsLetterSubscriptionFooterEmail" name="Email" class="form-control me-2" type="email" value="" maxlength="100" placeholder="Enter email" data-val="true">
+                        <span class="field-validation-valid" id="email-footer-error"></span>
+                    </div>
+                    <button type="button" id="NewsLetterSubscriptionFooterSubmit" class="btn btn-white" onclick="handleFooterNewsLetterFormSubmission(event)">Subscribe to newsletter</button>
+                    <p class="text-white mb-0" id="ThankyouNewsLetter" style="display:none">
+                        Thank you For Subscribing!
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<input type="hidden" id="NewsLettersitekey" value="6LeHflUmAAAAAFI-_rB4YWt_q3nii1xrKAAtEBPr">
+<script src="https://www.google.com/recaptcha/api.js?render=6LeHflUmAAAAAFI-_rB4YWt_q3nii1xrKAAtEBPr" async defer></script>
+<script>
+    function handleFooterNewsLetterFormSubmission(event) {
+        event.preventDefault();
+        if (validateNewsLetterFooterForm()) {
+            $("#NewsLetterSubscriptionFooterSubmit").prop('disabled', true);
+
+            grecaptcha.ready(function () {
+                grecaptcha.execute($('#NewsLettersitekey').val(), { action: 'SubmitNewsLetterSubscription' }).then(function (token) {
+                    var formData = {
+                        Email: $('#NewsLetterSubscriptionFooterEmail').val().trim(),
+                        GoogleRecaptchaToken: token
+                    };
+
+                    submitFooterForm(formData);
+                });
+            });
+        }
+    }
+
+async function submitFooterForm(formData) {
+    try {
+        const response = await $.ajax({
+            url: "/api/masdarforms/SubmitNewsLetterSubscription",
+            type: "POST",
+            cache: true,
+            async: true,
+            data: { newsLetterSubscriptionModel: formData },
+        });
+        handleFooterSuccess(response);
+    } catch (xhr) {
+        handleFooterError(xhr);
+    } finally {
+        $("#NewsLetterSubscriptionFooterSubmit").prop('disabled', false);
+    }
+}
+
+    function handleFooterSuccess(response) {
+        if (response.Result) {
+        $("#NewsLetterSubscriptionFooterEmail").prop('disabled', false);
+        $("#InputFooterSectionNewsLetter").attr("style", "display:none !important");
+        $("#NewsLetterSubscriptionFooterSubmit").hide();
+        $("#ThankyouNewsLetter").show();
+    } else {
+        $("#NewsLetterSubscriptionFooterEmail").prop('disabled', false);
+        $("#email-footer-error").text(response.Message);
+    }
+}
+
+function handleFooterError(xhr) {
+    $("#NewsLetterSubscriptionFooterEmail").prop('disabled', false);
+    $("#email-footer-error").text("Error while submitting form. Please try again later.");
+    console.error(xhr.responseText);
+}
+
+function validateNewsLetterFooterForm() {
+    var email = $('#NewsLetterSubscriptionFooterEmail').val().trim();
+    if (!email) {
+        $('#email-footer-error').text("Please enter your email address.");
+        return false;
+    } else if (!isValidEmail(email)) {
+        $('#email-footer-error').text("Please enter a valid email address.");
+        return false;
+    } else {
+        $('#email-footer-error').text('');
+        return true;
+    }
+}
+
+function isValidEmail(email) {
+    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(email);
+}
+
+</script>
+    </div>
+    <!--footer starts-->
+    
+<footer>
+    
+<div class="footer-top">
+    <div class="container-inner">
+        <div class="d-flex align-items-center justify-content-between">
+                    <ul class="d-flex align-items-center">
+                                <li>
+                                    <div class="link-block text-blue">
+                                        <a href="/en/renewables">
+                                        Renewables
+                                        <i class="icon-svg icon-right-arrow-blue"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="link-block text-blue">
+                                        <a href="/en/renewables/green-hydrogen">
+                                        Green Hydrogen
+                                        <i class="icon-svg icon-right-arrow-blue"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="link-block text-blue">
+                                        <a href="/en/strategic-global-initiatives">
+                                        Strategic Initiatives
+                                        <i class="icon-svg icon-right-arrow-blue"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                    </ul>
+                    <ul class="d-flex align-items-center">
+                                <li>
+                                    <div class="link-block text-blue">
+                                        <a href="/en/our-company/about-masdar">
+                                        About
+                                        <i class="icon-svg icon-right-arrow-blue"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="link-block text-blue">
+                                        <a href="/en/careers">
+                                        Careers
+                                        <i class="icon-svg icon-right-arrow-blue"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="link-block text-blue">
+                                        <a href="/en/news">
+                                        Media
+                                        <i class="icon-svg icon-right-arrow-blue"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="link-block text-blue">
+                                        <a href="/en/investors">
+                                        Investors
+                                        <i class="icon-svg icon-right-arrow-blue"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                    </ul>
+        </div>
+    </div>
+</div>
+
+    
+<div class="footer-bottom">
+    <div class="container-inner">
+        <div class="footer-bottom-top d-flex align-items-center justify-content-between">
+            <ul class="d-flex align-items-center flex-wrap">
+                        <li>
+                            <a target="_blank" title="Code of Ethics" rel="noopener noreferrer" href="https://app.convercent.com/en-us/LandingPage/111e86f3-bedb-e911-a96e-000d3ab9f062">
+                            Ethics &amp; Compliance Helpline
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/en/legal-terms/privacy-policy">
+                            Privacy &amp; Cookie Notice
+                            </a>
+                        </li>
+                        <li>
+                            <a title="Terms and Conditions" href="/en/legal-terms/terms-and-conditions">
+                            Terms and Conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" title="Tax Strategy" rel="noopener noreferrer" href="/-/media/corporate/downloads/about-us/management/masdar-tax-strategy.pdf">
+                            UK Tax Strategy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/en/legal-terms/internal-apps-privacy-policy">
+                            Internal Apps Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a title="Modern Day Slavery Statement" href="/en/legal-terms/modern-day-slavery-statement">
+                            Modern Day Slavery Statement
+                            </a>
+                        </li>
+                        <li>
+                            <a title="Fraud Warning" href="/en/legal-terms/fraud-warning">
+                            Fraud Warning
+                            </a>
+                        </li>
+                        <li>
+                            <a title="sitemap" href="/en/sitemap">
+                            Sitemap
+                            </a>
+                        </li>
+            </ul>
+            
+<div class="btn-block">
+    <a class="btn btn-blue" href="/en/contact-us">
+    Reach Out To Us
+    </a>
+</div>
+
+        </div>
+        
+
+<div class="footer-bottom-bottom d-flex align-items-center justify-content-between">
+    <p class="mb-0">&#169; 2026 Masdar. All Rights Reserved.</p>
+    <div class="social-icons">
+        <ul class="d-flex align-items-center">
+                    <li>
+                        <a target="_blank" title="facebook" rel="noopener noreferrer" href="https://www.facebook.com/masdar.ae/">
+                        <i class="icon-svg icon-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="twitter" rel="noopener noreferrer" href="https://twitter.com/masdar">
+                        <i class="icon-svg icon-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="instagram" rel="noopener noreferrer" href="http://instagram.com/masdar">
+                        <i class="icon-svg icon-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="linkedin" rel="noopener noreferrer" href="https://www.linkedin.com/company/masdar-abu-dhabi-future-energy-company">
+                        <i class="icon-svg icon-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="youtube" rel="noopener noreferrer" href="https://www.youtube.com/masdarvideos">
+                        <i class="icon-svg icon-youtube"></i>
+                        </a>
+                    </li>
+        </ul>
+    </div>
+</div>
+
+    </div>
+</div>
+
+</footer>
+    <!--footer ends-->
+    <!--sticy social media icons starts-->
+    <div class="social-media-sticky">
+    <!-- AddToAny BEGIN -->
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+        <a class="a2a_button_facebook icon-svg icon-facebook"></a>
+        <a class="a2a_button_twitter icon-svg icon-twitter"></a>
+        <a class="a2a_button_linkedin icon-svg icon-linkedin"></a>
+        <a class="a2a_button_email icon-svg icon-mail"></a>
+    </div>
+    <!-- AddToAny END -->
+</div>
+    <!--sticy social media icons ends-->
+</div>
+<!-- Cookie consent popup starts -->
+
+
+<div class="cookie-popup inactive">
+            <div class="container-inner">
+                <div class="cookie-container d-flex justify-content-between align-items-center">
+                    <div class="cookie-left">
+                        <h2>We value your privacy</h2>
+                        <p>We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies. </p>
+                    </div>
+                    <div class="cookie-right">
+                        <div class="d-flex align-items-center">
+                            <div class="btn-block"><a class="btn btn-white" id="accept-cookies">Accept all</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Cookie consent popup ends -->
+</body>
+
+<script type="text/javascript">
+    window.rsConf = { params: '//cdn-eu.readspeaker.com/script/13987/webReader/webReader.js?pids=wr', general: { usePost: true } };
+</script>
+<script src="/Assets/Corporate-Revamp/js/bootstrap.bundle.min.js"></script>
+<!-- select2 4.0.2 js-->
+<script src="/Assets/Corporate-Revamp/js/select2.min.js"></script>
+<!-- swiper 6.3.5 js -->
+<script src="/Assets/Corporate-Revamp/js/swiper.js"></script>
+<script src="/Assets/Corporate-Revamp/js/jquery.cookie.js"></script>
+<script src="https://static.addtoany.com/menu/page.js" defer></script>
+    <script src="/Assets/Corporate-Revamp/js/script.js"></script>
+<script src="/Assets/Corporate-Revamp/js/shareinline.js"></script>
+<script src="/Assets/Corporate-Revamp/js/coderelated.js"></script>
+</html>
