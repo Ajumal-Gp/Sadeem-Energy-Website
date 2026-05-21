@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="100%" height="100%">
+  <!-- Icon Emblem: Masdar Geometric Starburst -->
+  <g transform="translate(40, 15)">
+    <!-- Central diamond -->
+    <path d="M30,10 L40,30 L30,50 L20,30 Z" fill="#0072C6" />
+    <!-- Top diamond -->
+    <path d="M30,2 L35,12 L30,22 L25,12 Z" fill="#00A3E0" opacity="0.9" />
+    <!-- Bottom diamond -->
+    <path d="M30,38 L35,48 L30,58 L25,48 Z" fill="#00A3E0" opacity="0.9" />
+    <!-- Left diamond -->
+    <path d="M2,30 L12,35 L22,30 L12,25 Z" fill="#00A3E0" opacity="0.9" />
+    <!-- Right diamond -->
+    <path d="M38,30 L48,35 L58,30 L48,25 Z" fill="#0072C6" opacity="0.9" />
+    
+    <!-- Diagonal diamonds -->
+    <path d="M12,12 L22,17 L17,27 L7,22 Z" fill="#005A9C" opacity="0.8" />
+    <path d="M48,12 L53,22 L43,27 L38,17 Z" fill="#0072C6" opacity="0.8" />
+    <path d="M12,48 L17,38 L27,43 L22,53 Z" fill="#00A3E0" opacity="0.8" />
+    <path d="M48,48 L38,43 L43,33 L53,38 Z" fill="#005A9C" opacity="0.8" />
+  </g>
+  <!-- Typography -->
+  <text x="120" y="44" font-family="'Inter', 'Montserrat', sans-serif" font-weight="900" font-size="22" fill="#003B73" letter-spacing="2">MASDAR</text>
+  <text x="120" y="62" font-family="'Inter', 'Montserrat', sans-serif" font-weight="800" font-size="16" fill="#00A3E0" letter-spacing="3.5">مصدر</text>
+</svg>
