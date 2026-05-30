@@ -203,18 +203,18 @@ const Services = () => {
         : ["تحلية SWRO", "مضخات ذكية", "إدارة الضغط", "مراقبة الجودة"]
     },
     { 
-      key: "grid", 
-      image: serviceAi, 
-      assets: language === "en"
-        ? ["Predictive Balancing", "Fault Detection", "Digital Twin", "Demand Mitigation"]
-        : ["موازنة تنبؤية", "كشف الأعطال", "التوأم الرقمي", "تخفيف الطلب"]
-    },
-    { 
       key: "radiation", 
       image: serviceNuclear, 
       assets: language === "en"
         ? ["Diagnostic Shielding Audits", "Personal Dose Monitoring", "FANR Compliance Surveying", "Isotopic Source Verification"]
         : ["تدقيق درع التشخيص", "مراقبة الجرعات الشخصية", "مسح امتثال FANR", "التحقق من المصدر النظيري"]
+    },
+    { 
+      key: "grid", 
+      image: serviceAi, 
+      assets: language === "en"
+        ? ["Predictive Balancing", "Fault Detection", "Digital Twin", "Demand Mitigation"]
+        : ["موازنة تنبؤية", "كشف الأعطال", "التوأم الرقمي", "تخفيف الطلب"]
     },
   ];
 

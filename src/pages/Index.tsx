@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Sun, Recycle, BarChart3, Droplets, Thermometer, Brain, ArrowRight, Building2, Factory, Landmark, Zap, Globe2 } from "lucide-react";
+import { Sun, Recycle, BarChart3, Droplets, Thermometer, Brain, ArrowRight, Building2, Factory, Landmark, Zap, Globe2, ShieldCheck } from "lucide-react";
+
 import { Section, SectionHeader } from "@/components/Section";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import PartnersCarousel from "@/components/PartnersCarousel";
@@ -17,6 +18,8 @@ import serviceWater from "@/assets/service-water.jpg";
 import serviceCooling from "@/assets/service-cooling.jpg";
 import serviceAuditing from "@/assets/service-auditing.jpg";
 import serviceAi from "@/assets/service-ai.jpg";
+import serviceNuclear from "@/assets/service-nuclear.jpg";
+
 
 const servicesData = [
   { icon: Thermometer, key: "cooling", image: serviceCooling },
@@ -24,6 +27,7 @@ const servicesData = [
   { icon: Sun, key: "solar", image: serviceSolar },
   { icon: Recycle, key: "waste", image: serviceWaste },
   { icon: Droplets, key: "water", image: serviceWater },
+  { icon: ShieldCheck, key: "radiation", image: serviceNuclear },
   { icon: Brain, key: "grid", image: serviceAi },
 ];
 

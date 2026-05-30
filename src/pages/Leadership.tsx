@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { ShieldCheck, Scale, Award, FileCheck, Landmark, ChevronRight, BarChart3, Building2, Eye, Gavel, Globe2, BookOpen, ExternalLink } from "lucide-react";
 import { Section, SectionHeader } from "@/components/Section";
 import { useLanguage } from "@/lib/LanguageContext";
+import drAhmed from "@/assets/dr-ahmed.jpeg";
+
 
 const governancePoliciesData = [
   { key: "conduct", icon: ShieldCheck },
@@ -190,7 +192,7 @@ const Leadership = () => {
                 </div>
                 <div className="border-t border-slate-200/60 pt-4 flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-slate-200 overflow-hidden">
-                    <img src="/src/assets/dr-ahmed.jpeg" alt="Dr. Ahmed" className="w-full h-full object-cover animate-slow-zoom" />
+                    <img src={drAhmed} alt="Dr. Ahmed" className="w-full h-full object-cover animate-slow-zoom" />
                   </div>
                   <div>
                     <div className="text-xs font-black text-slate-800">{language === "en" ? "Dr. Ahmed Mohammed Al Ali" : "د. أحمد محمد آل علي"}</div>
