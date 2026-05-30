@@ -65,7 +65,7 @@ const newsItems = [
     image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80",
   },
   {
-    date: "February 19-23, 2024",
+    date: "February 19-22, 2024",
     dateAr: "19-23 فبراير 2024",
     category: "Innovation",
     categoryAr: "ابتكار",

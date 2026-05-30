@@ -11,7 +11,9 @@ import serviceWater from "@/assets/service-water.jpg";
 import serviceCooling from "@/assets/service-cooling.jpg";
 import serviceAuditing from "@/assets/service-auditing.jpg";
 import serviceAi from "@/assets/service-ai.jpg";
+import serviceNuclear from "@/assets/service-nuclear.jpg";
 import corporateHero from "@/assets/corporate-energy-hero.png";
+
 
 const processData = [
   { 
@@ -207,7 +209,15 @@ const Services = () => {
         ? ["Predictive Balancing", "Fault Detection", "Digital Twin", "Demand Mitigation"]
         : ["موازنة تنبؤية", "كشف الأعطال", "التوأم الرقمي", "تخفيف الطلب"]
     },
+    { 
+      key: "radiation", 
+      image: serviceNuclear, 
+      assets: language === "en"
+        ? ["Diagnostic Shielding Audits", "Personal Dose Monitoring", "FANR Compliance Surveying", "Isotopic Source Verification"]
+        : ["تدقيق درع التشخيص", "مراقبة الجرعات الشخصية", "مسح امتثال FANR", "التحقق من المصدر النظيري"]
+    },
   ];
+
 
   return (
     <div className="bg-white min-h-screen relative">

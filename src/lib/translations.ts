@@ -49,6 +49,9 @@ export const translations = {
     service_waste_desc: "Transforming urban waste into clean, base-load steam and electricity.",
     service_grid: "AI-Driven Grid",
     service_grid_desc: "Predictive load balancing and autonomous grid management systems.",
+    service_radiation: "Radiation Auditing",
+    service_radiation_desc: "State-of-the-art diagnostic surveying, shielding validation, and dose monitoring to ensure maximum nuclear safety and regulatory compliance.",
+
 
     // Why Choose Us
     why_label: "Why Sadeem Energy",
@@ -101,6 +104,8 @@ export const translations = {
     service_water_full: "Water Sustainability",
     service_grid_full: "AI Grid Management",
     service_ev_full: "EV Infrastructure",
+    service_radiation_full: "Radiation Auditing & Safety",
+
 
     // About Page
     about_hero_tag: "Our Legacy",
@@ -378,6 +383,9 @@ export const translations = {
     service_waste_desc: "تحويل النفايات الحضرية إلى بخار وكهرباء نظيفة.",
     service_grid: "شبكة مدعومة بالذكاء الاصطناعي",
     service_grid_desc: "أنظمة موازنة الأحمال التنبؤية وإدارة الشبكة الذاتية.",
+    service_radiation: "تدقيق الإشعاع",
+    service_radiation_desc: "مسح تشخيصي متطور، والتحقق من جودة الدروع، ومراقبة الجرعات لضمان أقصى درجات السلامة النووية والامتثال التنظيمي.",
+
 
     // Why Choose Us
     why_label: "لماذا سديم للطاقة؟",
@@ -430,6 +438,8 @@ export const translations = {
     service_water_full: "استدامة المياه",
     service_grid_full: "إدارة الشبكة بالذكاء الاصطناعي",
     service_ev_full: "البنية التحتية للمركبات الكهربائية",
+    service_radiation_full: "تدقيق الإشعاع والسلامة",
+
 
     // About Page
     about_hero_tag: "إرثنا",

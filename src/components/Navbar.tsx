@@ -58,6 +58,13 @@ const Navbar = () => {
             { title: t("service_solar_full"), description: t("service_solar_desc"), link: "/services" },
             { title: t("service_waste_full"), description: t("service_waste_desc"), link: "/services" },
           ]
+        },
+        {
+          id: "nuclear",
+          label: language === "en" ? "Nuclear Safety" : "السلامة النووية",
+          content: [
+            { title: t("service_radiation"), description: t("service_radiation_desc"), link: "/services" },
+          ]
         }
       ]
     },
@@ -127,11 +134,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav
-      ref={navRef}
-      className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border shadow-sm transition-all duration-300"
-      onMouseLeave={() => setActiveMegaMenu(null)}
-    >
+    <>
+      <nav
+        ref={navRef}
+        className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border shadow-sm transition-all duration-300"
+        onMouseLeave={() => setActiveMegaMenu(null)}
+      >
+
       <div className="container mx-auto flex items-center justify-between h-20 px-4">
         <Link to="/" className="flex items-center gap-2 group shrink-0">
           <img src={logo} alt="Sadeem Energy" className="h-10 md:h-12 w-auto transition-transform group-hover:scale-105" />
@@ -280,17 +289,19 @@ const Navbar = () => {
           </motion.div>
         )}
       </AnimatePresence>
+    </nav>
 
-      {/* Mobile menu */}
-      <AnimatePresence>
-        {mobileOpen && (
-          <motion.div
-            initial={{ x: isRTL ? "-100%" : "100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: isRTL ? "-100%" : "100%" }}
-            transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed inset-0 top-20 bg-background z-40 lg:hidden overflow-y-auto"
-          >
+    {/* Mobile menu */}
+    <AnimatePresence>
+      {mobileOpen && (
+        <motion.div
+          initial={{ x: isRTL ? "-100%" : "100%" }}
+          animate={{ x: 0 }}
+          exit={{ x: isRTL ? "-100%" : "100%" }}
+          transition={{ type: "spring", damping: 25, stiffness: 200 }}
+          className="fixed top-20 left-0 right-0 bottom-0 h-[calc(100vh-5rem)] w-full bg-background z-40 lg:hidden overflow-y-auto"
+        >
+
             <div className="flex flex-col p-6 gap-2">
               {navItems.map((item) => (
                 <div key={item.key} className="border-b border-border last:border-0">
@@ -370,8 +381,9 @@ const Navbar = () => {
           </CommandGroup>
         </CommandList>
       </CommandDialog>
-    </nav>
+    </>
   );
 };
+
 
 export default Navbar;
