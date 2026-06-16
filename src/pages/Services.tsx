@@ -13,66 +13,68 @@ import serviceAuditing from "@/assets/service-auditing.jpg";
 import serviceAi from "@/assets/service-ai.jpg";
 import serviceNuclear from "@/assets/service-nuclear.jpg";
 import corporateHero from "@/assets/corporate-energy-hero.png";
+import uaeEnergyHero from "@/assets/uae-energy-hero.png";
+import projMbrSolar from "@/assets/proj-mbr-solar.png";
 
 
 const processData = [
-  { 
-    step: "01", 
+  {
+    step: "01",
     key: "strategy",
     title: { en: "Energy Strategy", ar: "استراتيجية الطاقة" },
-    desc: { 
+    desc: {
       en: "In-depth baseline analysis and sustainability benchmarking to align with national energy goals.",
       ar: "تحليل خط الأساس المتعمق وقياس الاستدامة للتوافق مع أهداف الطاقة الوطنية."
     }
   },
-  { 
-    step: "02", 
+  {
+    step: "02",
     key: "blueprint",
     title: { en: "Digital Blueprint", ar: "المخطط الرقمي" },
-    desc: { 
+    desc: {
       en: "Designing smart infrastructure and AI-driven grid management systems tailored to specific asset needs.",
       ar: "تصميم بنية تحتية ذكية وأنظمة إدارة شبكة مدفوعة بالذكاء الاصطناعي مصممة خصيصًا لاحتياجات الأصول."
     }
   },
-  { 
-    step: "03", 
+  {
+    step: "03",
     key: "build",
     title: { en: "Engineering Build", ar: "البناء الهندسي" },
-    desc: { 
+    desc: {
       en: "Precision deployment of SWRO, District Cooling, and Waste-to-Energy infrastructure by specialist teams.",
       ar: "النشر الدقيق لبنية التحتية لـ SWRO والتبريد المركزي وتحويل النفايات إلى طاقة بواسطة فرق متخصصة."
     }
   },
-  { 
-    step: "04", 
+  {
+    step: "04",
     key: "integration",
     title: { en: "Smart Integration", ar: "التكامل الذكي" },
-    desc: { 
+    desc: {
       en: "Seamlessly connecting assets via AMI infrastructure and IoT gateways for real-time monitoring.",
       ar: "ربط الأصول بسلاسة عبر بنية AMI التحتية وبوابات إنترنت الأشياء للمراقبة في الوقت الفعلي."
     }
   },
-  { 
-    step: "05", 
+  {
+    step: "05",
     key: "evolution",
     title: { en: "Strategic Evolution", ar: "التطور الاستراتيجي" },
-    desc: { 
+    desc: {
       en: "Continuous optimization through Digital Twin technology and predictive performance balancing.",
       ar: "التحسين المستمر من خلال تقنية التوأم الرقمي وموازنة الأداء التنبؤية."
     }
   },
-];
+  ];
 
 const EnergyGrid = () => {
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,51,102,0.05)_0%,transparent_70%)]" />
-      <div 
-        className="absolute inset-0 opacity-[0.03]" 
-        style={{ 
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
           backgroundImage: `radial-gradient(var(--primary) 1px, transparent 1px)`,
-          backgroundSize: '40px 40px' 
-        }} 
+          backgroundSize: '40px 40px'
+        }}
       />
     </div>
   );
@@ -80,7 +82,7 @@ const EnergyGrid = () => {
 
 const ServiceItem = ({ svc, i, t, isRTL, language }: any) => {
   const containerRef = useRef(null);
-  
+
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start end", "end start"],
@@ -97,25 +99,19 @@ const ServiceItem = ({ svc, i, t, isRTL, language }: any) => {
       <div className="lg:w-1/2 w-full relative">
         <div className="relative rounded-[3rem] overflow-hidden shadow-2xl bg-slate-100">
           <motion.img
-            style={{ y, scale: 1.25 }}
             src={svc.image}
             alt={t(`service_${svc.key}`)}
-            className="w-full h-[500px] lg:h-[600px] object-cover"
+            className="w-full h-[350px] lg:h-[500px] object-cover"
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.6 }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
         </div>
       </div>
 
-      {/* Text Content */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.8, delay: 0.2 }}
-        className={`lg:w-1/2 w-full space-y-10 relative z-10 ${isRTL ? "text-right" : "text-left"}`}
-      >
-        <div className="space-y-6">
-          <h3 className="text-5xl lg:text-7xl font-display font-black text-slate-900 leading-[1.1] tracking-tighter">
+      {/* Content Container */}
+      <motion.div style={{ y }} className="lg:w-1/2 w-full space-y-8">
+        <div className="space-y-4">
+          <h3 className="text-3xl lg:text-5xl font-display font-black text-slate-900 leading-[1.1] tracking-tighter">
             {t(`service_${svc.key}`)}
           </h3>
           <div className={`h-2 w-32 bg-primary rounded-full ${isRTL ? "mr-0 ml-auto" : ""}`} />
@@ -167,51 +163,65 @@ const Services = () => {
   const pathHeight = useSpring(useTransform(servicesScroll, [0, 1], ["0%", "100%"]), { stiffness: 100, damping: 30 });
 
   const servicesData = [
-    { 
-      key: "cooling", 
-      image: serviceCooling, 
-      assets: language === "en" 
+    {
+      key: "cooling",
+      image: serviceCooling,
+      assets: language === "en"
         ? ["Centralized Chiller Plants", "ETS Stations", "Underground Networks", "TES Storage"]
         : ["محطات تبريد مركزية", "محطات نقل الطاقة", "شبكات تحت الأرض", "تخزين الطاقة الحرارية"]
     },
-    { 
-      key: "metering", 
-      image: serviceAuditing, 
+    {
+      key: "metering",
+      image: serviceAuditing,
       assets: language === "en"
         ? ["AMI Infrastructure", "IoT Gateways", "Real-time Analytics", "Multi-utility Support"]
         : ["بنية AMI التحتية", "بوابات إنترنت الأشياء", "تحليلات فورية", "دعم مرافق متعددة"]
     },
-    { 
-      key: "solar", 
-      image: serviceSolar, 
+    {
+      key: "solar",
+      image: serviceSolar,
       assets: language === "en"
         ? ["Shams Dubai Compliance", "Utility-scale PV", "Inverter Systems", "Performance AI"]
         : ["امتثال شمس دبي", "خلايا شمسية ضخمة", "أنظمة العواكس", "أداء مدعوم بالذكاء الاصطناعي"]
     },
-    { 
-      key: "waste", 
-      image: serviceWaste, 
+    {
+      key: "waste",
+      image: serviceWaste,
       assets: language === "en"
         ? ["Combustion Technology", "Steam Turbines", "Flue Gas Treatment", "Carbon Capture Ready"]
         : ["تقنية الاحتراق", "توربينات بخارية", "معالجة غاز المداخن", "جاهز لالتقاط الكربون"]
     },
-    { 
-      key: "water", 
-      image: serviceWater, 
+    {
+      key: "water_cycle",
+      image: serviceWater,
       assets: language === "en"
-        ? ["SWRO Desalination", "Smart Pumping", "Pressure Management", "Quality Monitoring"]
-        : ["تحلية SWRO", "مضخات ذكية", "إدارة الضغط", "مراقبة الجودة"]
+        ? ["Desalination & Purification", "Wastewater Treatment", "Industrial Water Solutions", "Infrastructure & Irrigation"]
+        : ["تحلية وتنقية المياه", "معالجة مياه الصرف", "حلول المياه الصناعية", "البنية التحتية والري"]
     },
-    { 
-      key: "radiation", 
-      image: serviceNuclear, 
+    {
+      key: "radiation",
+      image: serviceNuclear,
       assets: language === "en"
         ? ["Diagnostic Shielding Audits", "Personal Dose Monitoring", "FANR Compliance Surveying", "Isotopic Source Verification"]
         : ["تدقيق درع التشخيص", "مراقبة الجرعات الشخصية", "مسح امتثال FANR", "التحقق من المصدر النظيري"]
     },
-    { 
-      key: "grid", 
-      image: serviceAi, 
+    {
+      key: "generation",
+      image: projMbrSolar,
+      assets: language === "en"
+        ? ["Utility-Scale Photovoltaics", "Concentrated Solar Thermal", "Sustainable Bioenergy Systems", "Grid Integration"]
+        : ["الأنظمة الكهروضوئية للمرافق", "الطاقة الشمسية الحرارية المركزة", "أنظمة الطاقة الحيوية المستدامة", "تكامل الشبكة"]
+    },
+    {
+      key: "infra",
+      image: uaeEnergyHero,
+      assets: language === "en"
+        ? ["High-Voltage Transmission", "Distribution Substations", "Grid Electrification", "SCADA & Protection Systems"]
+        : ["نقل الطاقة عالي الجهد", "محطات التوزيع الفرعية", "كهربة الشبكات", "أنظمة SCADA والحماية"]
+    },
+    {
+      key: "grid",
+      image: serviceAi,
       assets: language === "en"
         ? ["Predictive Balancing", "Fault Detection", "Digital Twin", "Demand Mitigation"]
         : ["موازنة تنبؤية", "كشف الأعطال", "التوأم الرقمي", "تخفيف الطلب"]
@@ -222,7 +232,7 @@ const Services = () => {
   return (
     <div className="bg-white min-h-screen relative">
       <EnergyGrid />
-      
+
       {/* Standardized Seamless Hero */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-white">
         <div className="absolute inset-0 z-0 opacity-40">
@@ -241,13 +251,13 @@ const Services = () => {
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/5 border border-primary/10 text-primary text-[10px] font-black uppercase tracking-[0.2em] mb-6">
                 <Globe2 size={12} /> {language === 'en' ? 'OUR CAPABILITIES' : 'قدراتنا'}
               </div>
-              
+
               <h1 className="text-4xl lg:text-8xl font-display font-black text-slate-900 mb-8 leading-[0.95] tracking-tighter">
                 {language === 'en' ? 'Pioneering Smart Energy Solutions' : 'حلول طاقة ذكية رائدة'}
               </h1>
-              
+
               <p className="text-slate-500 text-lg lg:text-2xl max-w-2xl leading-relaxed font-medium opacity-80">
-                {language === 'en' 
+                {language === 'en'
                   ? "From the world's largest district cooling networks to AI-managed smart grids, we provide the infrastructure that powers the future of nations."
                   : "من أكبر شبكات التبريد في العالم إلى الشبكات الذكية التي يديرها الذكاء الاصطناعي، نوفر البنية التحتية التي تدعم مستقبل الأمم."}
               </p>
@@ -259,15 +269,15 @@ const Services = () => {
       {/* Services List */}
       <div ref={servicesRef} className="container mx-auto px-4 relative z-10 py-32">
         <div className={`absolute top-20 bottom-20 ${isRTL ? "right-4" : "left-4"} w-px bg-slate-100 hidden lg:block`}>
-          <motion.div 
+          <motion.div
             style={{ height: pathHeight }}
-            className="w-full bg-primary" 
+            className="w-full bg-primary"
           />
         </div>
 
         <div className="space-y-24">
-          {servicesData.map((svc, i) => (
-            <ServiceItem key={i} svc={svc} i={i} t={t} isRTL={isRTL} language={language} />
+          {servicesData.map((svc, idx) => (
+            <ServiceItem key={svc.key} svc={svc} i={idx} t={t} isRTL={isRTL} language={language} />
           ))}
         </div>
       </div>
@@ -319,7 +329,7 @@ const Services = () => {
               <p className="text-2xl lg:text-4xl text-slate-900 font-display font-black leading-tight tracking-tight italic">
                 "{t("svc_cta_desc")}"
               </p>
-              
+
               <div className={`flex flex-col sm:flex-row gap-6 justify-center pt-6 ${isRTL ? "flex-row-reverse" : ""}`}>
                 <Link
                   to="/contact"

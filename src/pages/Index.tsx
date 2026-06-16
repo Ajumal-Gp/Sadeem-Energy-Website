@@ -11,13 +11,13 @@ import Certifications from "@/components/home/Certifications";
 import ImpactMetrics from "@/components/home/ImpactMetrics";
 import { GovernmentAlignment } from "@/components/home/GovernmentAlignment";
 import { useLanguage } from "@/lib/LanguageContext";
+import { LifeCycleChart } from "@/components/home/LifeCycleChart";
 
 import serviceSolar from "@/assets/service-solar.jpg";
 import serviceWaste from "@/assets/service-waste.jpg";
 import serviceWater from "@/assets/service-water.jpg";
 import serviceCooling from "@/assets/service-cooling.jpg";
 import serviceAuditing from "@/assets/service-auditing.jpg";
-import serviceAi from "@/assets/service-ai.jpg";
 import serviceNuclear from "@/assets/service-nuclear.jpg";
 
 
@@ -26,9 +26,8 @@ const servicesData = [
   { icon: BarChart3, key: "metering", image: serviceAuditing },
   { icon: Sun, key: "solar", image: serviceSolar },
   { icon: Recycle, key: "waste", image: serviceWaste },
-  { icon: Droplets, key: "water", image: serviceWater },
+  { icon: Droplets, key: "water_cycle", image: serviceWater },
   { icon: ShieldCheck, key: "radiation", image: serviceNuclear },
-  { icon: Brain, key: "grid", image: serviceAi },
 ];
 
 const statsData = [
@@ -70,6 +69,9 @@ const Home = () => {
 
       {/* Why Choose Us - Compact Elegant Version */}
       <WhyChooseUs />
+
+      {/* Life Cycle Chart */}
+      <LifeCycleChart />
 
       {/* Elegant Services Grid */}
       <Section className="!py-20 lg:!py-32">

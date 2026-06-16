@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/LanguageContext";
+import alGhurairLogo from "@/assets/al-ghurair.png";
 
 const clients = [
   { name: "Dubai Municipality", fullName: "Dubai Municipality", logo: "/clients/dmLogo.png" },
   { name: "Dubai Police", fullName: "Dubai Police", logo: "/clients/Dubai-Police-Logo.png" },
   { name: "HBMSU", fullName: "Hamdan Bin Mohammed Smart University", logo: "/clients/HBMSU-logo.jpg" },
   { name: "Kangaroo Plastics", fullName: "Kangaroo Plastics Middle East LLC", logo: "/clients/kangaroo-lastic-logo.jpg" },
+  { name: "Al Ghurair", fullName: "Al Ghurair", logo: alGhurairLogo },
 ];
 
 

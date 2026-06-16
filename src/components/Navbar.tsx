@@ -35,35 +35,31 @@ const Navbar = () => {
       path: "/services",
       megaMenu: [
         {
-          id: "urban",
-          label: language === "en" ? "Urban Solutions" : "حلول حضرية",
+          id: "utility",
+          label: language === "en" ? "Utility Solutions" : "حلول المرافق",
           content: [
             { title: t("service_cooling"), description: t("service_cooling_desc"), link: "/services" },
-            { title: t("service_water"), description: t("service_water_desc"), link: "/services" },
+            { title: t("service_water_cycle"), description: t("service_water_cycle_desc"), link: "/services" },
+            { title: t("service_metering_full"), description: t("service_metering_desc"), link: "/services" },
             { title: t("service_ev_full"), description: language === "en" ? "National network of ultra-fast smart EV charging stations." : "شبكة وطنية من محطات شحن المركبات الكهربائية فائقة السرعة.", link: "/services" },
           ]
         },
         {
-          id: "smart",
-          label: language === "en" ? "Smart Infrastructure" : "بنية تحتية ذكية",
-          content: [
-            { title: t("service_metering_full"), description: t("service_metering_desc"), link: "/services" },
-            { title: t("service_grid_full"), description: t("service_grid_desc"), link: "/services" },
-          ]
-        },
-        {
-          id: "renewable",
-          label: language === "en" ? "Renewable Energy" : "طاقة متجددة",
+          id: "energy",
+          label: language === "en" ? "Energy & Generation" : "الطاقة والتوليد",
           content: [
             { title: t("service_solar_full"), description: t("service_solar_desc"), link: "/services" },
             { title: t("service_waste_full"), description: t("service_waste_desc"), link: "/services" },
+            { title: t("service_generation_full"), description: t("service_generation_desc"), link: "/services" },
           ]
         },
         {
-          id: "nuclear",
-          label: language === "en" ? "Nuclear Safety" : "السلامة النووية",
+          id: "infrastructure",
+          label: language === "en" ? "Infrastructure & Grid" : "البنية التحتية والشبكة",
           content: [
-            { title: t("service_radiation"), description: t("service_radiation_desc"), link: "/services" },
+            { title: t("service_infra_full"), description: t("service_infra_desc"), link: "/services" },
+            { title: t("service_radiation_full"), description: t("service_radiation_desc"), link: "/services" },
+            { title: t("service_grid_full"), description: t("service_grid_desc"), link: "/services" },
           ]
         }
       ]
@@ -141,166 +137,166 @@ const Navbar = () => {
         onMouseLeave={() => setActiveMegaMenu(null)}
       >
 
-      <div className="container mx-auto flex items-center justify-between h-20 px-4">
-        <Link to="/" className="flex items-center gap-2 group shrink-0">
-          <img src={logo} alt="Sadeem Energy" className="h-10 md:h-12 w-auto transition-transform group-hover:scale-105" />
-        </Link>
+        <div className="container mx-auto flex items-center justify-between h-20 px-4">
+          <Link to="/" className="flex items-center gap-2 group shrink-0">
+            <img src={logo} alt="Sadeem Energy" className="h-10 md:h-12 w-auto transition-transform group-hover:scale-105" />
+          </Link>
 
-        <div className="hidden lg:flex items-center gap-1 xl:gap-4 h-full">
-          {navItems.map((item) => (
-            <div
-              key={item.key}
-              className="relative h-full flex items-center"
-              onMouseEnter={() => handleMouseEnter(item)}
-            >
-              {item.megaMenu ? (
-                <button
-                  onDoubleClick={() => item.path && navigate(item.path)}
-                  className={`flex items-center gap-1.5 px-3 py-2 text-[15px] font-semibold transition-all relative
+          <div className="hidden lg:flex items-center gap-1 xl:gap-4 h-full">
+            {navItems.map((item) => (
+              <div
+                key={item.key}
+                className="relative h-full flex items-center"
+                onMouseEnter={() => handleMouseEnter(item)}
+              >
+                {item.megaMenu ? (
+                  <button
+                    onDoubleClick={() => item.path && navigate(item.path)}
+                    className={`flex items-center gap-1.5 px-3 py-2 text-[15px] font-semibold transition-all relative
                     ${activeMegaMenu === item.key ? "text-primary" : "text-muted-foreground hover:text-primary"}
                   `}
-                >
-                  {t(`nav_${item.key}`)}
-                  <ChevronDown
-                    size={16}
-                    className={`transition-transform duration-300 ${activeMegaMenu === item.key ? "rotate-180" : ""}`}
-                  />
-                  {activeMegaMenu === item.key && (
-                    <motion.div
-                      layoutId="navUnderline"
-                      className="absolute bottom-[-1px] left-0 right-0 h-[3px] bg-secondary"
+                  >
+                    {t(`nav_${item.key}`)}
+                    <ChevronDown
+                      size={16}
+                      className={`transition-transform duration-300 ${activeMegaMenu === item.key ? "rotate-180" : ""}`}
                     />
-                  )}
-                </button>
-              ) : (
-                <Link
-                  to={item.path!}
-                  className={`px-3 py-2 text-[15px] font-semibold transition-all relative
+                    {activeMegaMenu === item.key && (
+                      <motion.div
+                        layoutId="navUnderline"
+                        className="absolute bottom-[-1px] left-0 right-0 h-[3px] bg-secondary"
+                      />
+                    )}
+                  </button>
+                ) : (
+                  <Link
+                    to={item.path!}
+                    className={`px-3 py-2 text-[15px] font-semibold transition-all relative
                     ${location.pathname === item.path ? "text-primary" : "text-muted-foreground hover:text-primary"}
                   `}
-                >
-                  {t(`nav_${item.key}`)}
-                  {location.pathname === item.path && (
-                    <motion.div
-                      layoutId="navUnderline"
-                      className="absolute bottom-[-1px] left-0 right-0 h-[3px] bg-secondary"
-                    />
-                  )}
-                </Link>
-              )}
-            </div>
-          ))}
-        </div>
-
-        <div className="hidden lg:flex items-center gap-4 xl:gap-6">
-          <button 
-            onClick={handleLanguageSwitch}
-            className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 group"
-          >
-            <Globe size={18} className="group-hover:rotate-12 transition-transform" />
-            <span className="text-sm font-bold">
-              {t("lang_toggle")}
-            </span>
-          </button>
-
-          <button 
-            onClick={() => setSearchOpen(true)}
-            className="text-muted-foreground hover:text-primary transition-colors"
-          >
-            <Search size={20} />
-          </button>
-
-          <Link
-            to="/contact"
-            className="bg-secondary text-secondary-foreground px-6 py-2.5 rounded-full text-[15px] font-bold hover:opacity-90 transition-all shadow-sm flex items-center gap-2"
-          >
-            {t("nav_contact_btn")}
-            <ChevronRight size={16} className={isRTL ? "rotate-180" : ""} />
-          </Link>
-        </div>
-
-        {/* Mobile toggle */}
-        <button
-          className="lg:hidden text-foreground p-2"
-          onClick={() => setMobileOpen(!mobileOpen)}
-        >
-          {mobileOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
-      </div>
-
-      {/* Mega Menu Overlay */}
-      <AnimatePresence>
-        {activeMegaMenu && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 10 }}
-            transition={{ duration: 0.2 }}
-            className="absolute top-full left-0 right-0 bg-background border-b border-border shadow-2xl overflow-hidden"
-            onMouseEnter={() => setActiveMegaMenu(activeMegaMenu)}
-          >
-            {navItems.find(i => i.key === activeMegaMenu)?.megaMenu && (
-              <div className="container mx-auto flex min-h-[350px]">
-                {/* Sidebar */}
-                <div className={`w-1/4 bg-muted/30 p-8 border-border ${isRTL ? "border-l" : "border-r"}`}>
-                  <div className="flex flex-col gap-3">
-                    {navItems.find(i => i.key === activeMegaMenu)?.megaMenu?.map((section) => (
-                      <button
-                        key={section.id}
-                        onMouseEnter={() => setActiveSection(section.id)}
-                        className={`flex items-center justify-between px-6 py-4 rounded-xl text-lg font-bold transition-all text-left
-                          ${activeSection === section.id
-                            ? "bg-card text-primary shadow-sm translate-x-2"
-                            : "text-muted-foreground hover:text-primary hover:bg-card/50"}
-                        `}
-                      >
-                        {section.label}
-                        {activeSection === section.id && <ChevronRight size={20} className={`text-secondary ${isRTL ? "rotate-180" : ""}`} />}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Content Area */}
-                <div className="w-3/4 p-12 bg-card">
-                  <div className="grid grid-cols-2 xl:grid-cols-3 gap-12">
-                    {navItems
-                      .find(i => i.key === activeMegaMenu)
-                      ?.megaMenu?.find(s => s.id === activeSection)
-                      ?.content.map((item, idx) => (
-                        <Link
-                          key={idx}
-                          to={item.link || "#"}
-                          onClick={() => setActiveMegaMenu(null)}
-                          className="group flex flex-col gap-3 text-left"
-                        >
-                          <h4 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
-                            {item.title}
-                          </h4>
-                          <p className="text-muted-foreground leading-relaxed text-[14px]">
-                            {item.description}
-                          </p>
-                        </Link>
-                      ))}
-                  </div>
-                </div>
+                  >
+                    {t(`nav_${item.key}`)}
+                    {location.pathname === item.path && (
+                      <motion.div
+                        layoutId="navUnderline"
+                        className="absolute bottom-[-1px] left-0 right-0 h-[3px] bg-secondary"
+                      />
+                    )}
+                  </Link>
+                )}
               </div>
-            )}
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </nav>
+            ))}
+          </div>
 
-    {/* Mobile menu */}
-    <AnimatePresence>
-      {mobileOpen && (
-        <motion.div
-          initial={{ x: isRTL ? "-100%" : "100%" }}
-          animate={{ x: 0 }}
-          exit={{ x: isRTL ? "-100%" : "100%" }}
-          transition={{ type: "spring", damping: 25, stiffness: 200 }}
-          className="fixed top-20 left-0 right-0 bottom-0 h-[calc(100vh-5rem)] w-full bg-background z-40 lg:hidden overflow-y-auto"
-        >
+          <div className="hidden lg:flex items-center gap-4 xl:gap-6">
+            <button
+              onClick={handleLanguageSwitch}
+              className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 group"
+            >
+              <Globe size={18} className="group-hover:rotate-12 transition-transform" />
+              <span className="text-sm font-bold">
+                {t("lang_toggle")}
+              </span>
+            </button>
+
+            <button
+              onClick={() => setSearchOpen(true)}
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Search size={20} />
+            </button>
+
+            <Link
+              to="/contact"
+              className="bg-secondary text-secondary-foreground px-6 py-2.5 rounded-full text-[15px] font-bold hover:opacity-90 transition-all shadow-sm flex items-center gap-2"
+            >
+              {t("nav_contact_btn")}
+              <ChevronRight size={16} className={isRTL ? "rotate-180" : ""} />
+            </Link>
+          </div>
+
+          {/* Mobile toggle */}
+          <button
+            className="lg:hidden text-foreground p-2"
+            onClick={() => setMobileOpen(!mobileOpen)}
+          >
+            {mobileOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
+        </div>
+
+        {/* Mega Menu Overlay */}
+        <AnimatePresence>
+          {activeMegaMenu && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              transition={{ duration: 0.2 }}
+              className="absolute top-full left-0 right-0 bg-background border-b border-border shadow-2xl overflow-hidden"
+              onMouseEnter={() => setActiveMegaMenu(activeMegaMenu)}
+            >
+              {navItems.find(i => i.key === activeMegaMenu)?.megaMenu && (
+                <div className="container mx-auto flex min-h-[350px]">
+                  {/* Sidebar */}
+                  <div className={`w-1/4 bg-muted/30 p-8 border-border ${isRTL ? "border-l" : "border-r"}`}>
+                    <div className="flex flex-col gap-3">
+                      {navItems.find(i => i.key === activeMegaMenu)?.megaMenu?.map((section) => (
+                        <button
+                          key={section.id}
+                          onMouseEnter={() => setActiveSection(section.id)}
+                          className={`flex items-center justify-between px-6 py-4 rounded-xl text-lg font-bold transition-all text-left
+                          ${activeSection === section.id
+                              ? "bg-card text-primary shadow-sm translate-x-2"
+                              : "text-muted-foreground hover:text-primary hover:bg-card/50"}
+                        `}
+                        >
+                          {section.label}
+                          {activeSection === section.id && <ChevronRight size={20} className={`text-secondary ${isRTL ? "rotate-180" : ""}`} />}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Content Area */}
+                  <div className="w-3/4 p-12 bg-card">
+                    <div className="grid grid-cols-2 xl:grid-cols-3 gap-12">
+                      {navItems
+                        .find(i => i.key === activeMegaMenu)
+                        ?.megaMenu?.find(s => s.id === activeSection)
+                        ?.content.map((item, idx) => (
+                          <Link
+                            key={idx}
+                            to={item.link || "#"}
+                            onClick={() => setActiveMegaMenu(null)}
+                            className="group flex flex-col gap-3 text-left"
+                          >
+                            <h4 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
+                              {item.title}
+                            </h4>
+                            <p className="text-muted-foreground leading-relaxed text-[14px]">
+                              {item.description}
+                            </p>
+                          </Link>
+                        ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </nav>
+
+      {/* Mobile menu */}
+      <AnimatePresence>
+        {mobileOpen && (
+          <motion.div
+            initial={{ x: isRTL ? "-100%" : "100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: isRTL ? "-100%" : "100%" }}
+            transition={{ type: "spring", damping: 25, stiffness: 200 }}
+            className="fixed top-20 left-0 right-0 bottom-0 h-[calc(100vh-5rem)] w-full bg-background z-40 lg:hidden overflow-y-auto"
+          >
 
             <div className="flex flex-col p-6 gap-2">
               {navItems.map((item) => (
@@ -343,7 +339,7 @@ const Navbar = () => {
                 </div>
               ))}
               <div className="mt-8 grid gap-4">
-                <button 
+                <button
                   onClick={handleLanguageSwitch}
                   className="flex items-center gap-2 font-bold text-foreground"
                 >

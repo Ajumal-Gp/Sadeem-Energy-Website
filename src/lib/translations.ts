@@ -105,6 +105,16 @@ export const translations = {
     service_grid_full: "AI Grid Management",
     service_ev_full: "EV Infrastructure",
     service_radiation_full: "Radiation Auditing & Safety",
+    service_water_cycle: "Complete Water Cycle",
+    service_water_cycle_desc: "End-to-end water solutions including desalination, purification, wastewater treatment, industrial water, infrastructure, and smart irrigation.",
+    service_water_cycle_full: "Complete Water Cycle Solutions",
+    service_generation: "Generation",
+    service_generation_desc: "Advanced utility-scale renewable energy power generation including photovoltaic solar, concentrated solar thermal, and bioenergy.",
+    service_generation_full: "Renewable Power Generation",
+    service_infra: "Infra",
+    service_infra_desc: "Resilient power transmission networks, electrical substations, and comprehensive grid electrification solutions.",
+    service_infra_full: "Electrical & Grid Infrastructure",
+
 
 
     // About Page
@@ -439,6 +449,16 @@ export const translations = {
     service_grid_full: "إدارة الشبكة بالذكاء الاصطناعي",
     service_ev_full: "البنية التحتية للمركبات الكهربائية",
     service_radiation_full: "تدقيق الإشعاع والسلامة",
+    service_water_cycle: "دورة المياه المتكاملة",
+    service_water_cycle_desc: "حلول مائية متكاملة تشمل تحلية المياه، والتنقية، ومعالجة مياه الصرف الصحي، والمياه الصناعية، والبنية التحتية، والري الذكي.",
+    service_water_cycle_full: "حلول دورة المياه المتكاملة",
+    service_generation: "التوليد",
+    service_generation_desc: "توليد الطاقة المتجددة المتقدمة على نطاق المرافق بما في ذلك الأنظمة الشمسية الكهروضوئية، والطاقة الشمسية الحرارية المركزة، والطاقة الحيوية.",
+    service_generation_full: "توليد الطاقة المتجددة",
+    service_infra: "البنية التحتية",
+    service_infra_desc: "شبكات نقل الطاقة المرنة، والبنية التحتية الكهربائية، وحلول كهربة الشبكات.",
+    service_infra_full: "البنية التحتية والكهربائية",
+
 
 
     // About Page
