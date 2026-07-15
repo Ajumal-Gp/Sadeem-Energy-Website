@@ -19,6 +19,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import Chatbot from "./components/Chatbot";
 
 const queryClient = new QueryClient();
 
@@ -55,6 +56,7 @@ const App = () => (
             <AnimatedRoutes />
           </Layout>
           <ScrollToTopButton />
+          <Chatbot />
         </BrowserRouter>
       </TooltipProvider>
     </LanguageProvider>
